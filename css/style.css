@@ -1,0 +1,88 @@
+*{
+    font-family: 'Roboto', serif;
+    margin: 0;
+    padding: 0;
+}
+/* navbar */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+nav>img{
+    height: 40px;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+nav>button{
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 30px;
+    color: white;
+    border: 0px;
+    background-image: linear-gradient(to right,#965CF2,#FCC3EE);
+}
+
+/* left-section */
+
+.left-section{
+    padding: 120px ;
+}
+.left-section>h1{
+    font-size: 60px;
+    color: #3E4794;
+}
+.left-section>h4{
+    padding:20px 800px 40px 0px;
+}
+
+.left-section>button{
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 30px;
+    color: white;
+    border: 0px;
+    background-image: linear-gradient(to right,#965CF2,#FCC3EE);
+}
+/* intro-section */
+
+.intro-section{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.imgs-div{
+    position: relative;
+    
+}
+
+.vector-img{
+    position: absolute;
+    right: 500px;
+    top: 300px;
+}
+.vector-dot{
+    position: absolute;
+    right: 525px;
+    top: 300px;
+}
+.main-img{
+    position: absolute;  
+    right: 0px;
+    height: 500px;
+}
+
+
+
+.main-div{
+    background-image: url(/UI_Projects-main/Project-8/images/backcover.svg);
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position-x: right;
+}
